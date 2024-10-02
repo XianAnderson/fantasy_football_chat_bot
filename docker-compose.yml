@@ -11,24 +11,24 @@ services:
       #Webhook URL from the Slack App page (REQUIRED IF USING SLACK)
       SLACK_WEBHOOK_URL: "1"
       #This is your Webhook URL from the Discord Settings page (REQUIRED IF USING DISCORD)
-      DISCORD_WEBHOOK_URL: "1"
+      DISCORD_WEBHOOK_URL: "https://discord.com/api/webhooks/1277849527235379231/0HUJ-uIfrAd9ZfS0iQW7CksDR6imX0twnPYtLOABc8fLUDJkfDwaJ1cg6-5bIVAsMwc4"
       #ESPN league id (REQUIRED)
-      LEAGUE_ID:
+      LEAGUE_ID: "484242422"
       # #When the bot will start paying attention and sending messages to your chat.
-      # START_DATE:
+      START_DATE: "2024-08-27"
       # #When the bot will stop paying attention and stop sending messages to your chat.
-      # END_DATE:
+      END_DATE: "2025-02-10"
       # #ESPN League year
-      # LEAGUE_YEAR:
+      LEAGUE_YEAR: "2024"
       # #The timezone that the messages will look to send in. (America/New_York by default)
-      # TIMEZONE:
+      TIMEZONE: "America/Los_Angeles"
       # #The message that the bot will say when it is started (can be blank for no message)
-      # INIT_MSG:
+      # INIT_MSG: "bot test. If you are seeing this message, the bot works"
       # #If set to True, when standings are posted on Wednesday it will also include top half scoring wins
-      # TOP_HALF_SCORING:
+      TOP_HALF_SCORING: "True"
       # #If set to True, when matchups are posted on Tuesday it will also include a random phrase
       # RANDOM_PHRASE:
       # #Used for private leagues. See Private Leagues Section for documentation
-      # ESPN_S2:
+      ESPN_S2: "AEB4Gtp0btOhkalSyRKNLrnqsugYSrfjgGa1M5YMfJHWRg8LxQrYcfggNkthYv66JLE6mv517xgoNQ2ZpeINLRU5Sx96IMN6g17m4HBloTibolWKw3y0%2FCGWGgwmNP3aPC6qoQSGDi1GrzbbEj9z19mimJtVg%2FoFVEI4O%2FAViWsyt%2BA9YzACt4k6nF6a8FhG1Zo%2BIPBTvVueZ9977mfohKf%2B2KHKT%2FqE3DXduSLGL%2B4zbD%2BrSmjoJjyx54JVWYfJgn7IbZeXdEPwpGqdlp3T%2FEXQtrbFVcd7nMVm9cFxZEMWhi%2BGo%2FVbswicBFGVKOUVS6U%3D"
       # #Used for private leagues. See Private Leagues Section for documentation
-      # SWID:
+      SWID: "2CE2ECB5-1AD0-49BD-BAD6-D350B100E910"
